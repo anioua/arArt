@@ -1,0 +1,165 @@
+body {
+background-color: #fff;
+}
+
+
+.nav-bg-color {
+    background-color: #4e5344;
+    border-bottom: 1px solid #fff;
+}
+
+#main-nav a,
+#main-nav li a {
+
+    color: #000;
+}
+
+#main-nav a:hover,
+#main-nav li a:hover {
+
+    color: #fff;
+}
+
+#main-nav ul {
+    margin-left: auto;
+}
+
+
+
+/*.start {
+    margin: auto;
+    margin-top: 20%;
+    margin-left: 50%;
+    background-image: url("../img/paint-face.jpg");
+    width: 40%;
+    height: 40vh;
+    background-size: cover;
+    border: 1px solid #fff;
+}*/
+
+#startSection {
+    height: 100vh;
+    background-color: #000;
+    
+
+
+}
+
+#omnieSection {
+    height: 100vh;
+    background-color: #d0d0d0;
+
+}
+
+#mojeobrazySection {
+    height: 100vh;
+    background-color: #d0d0d0;
+
+}
+
+#kontaktSection {
+    height: 100vh;
+    background-color: #d0d0d0;
+
+}
+
+
+/*#squareAnimation {
+    position: absolute;
+    bottom:10px;
+    width: 0%;
+    height: 2px;
+    border: 1px solid #000;
+}
+
+#squareAnimation2 {
+    position: absolute;
+    bottom:10px;
+    width: 0%;
+    height: 2px;
+    border: 1px solid #fff;
+}*/
+
+
+#startPage {
+    margin: auto;
+    margin-top: 20%;
+    width: 700px;
+    height: 300px;
+    background-color: antiquewhite;
+
+}
+
+#startPage:before {
+    content: "";
+    position: absolute;
+    top: 175px;
+    right: 200px;
+    width: 0px;
+    border: 1px solid #fff;
+    animation: 2s ease linesBefore;
+    animation-fill-mode: forwards;
+    
+}
+
+#startPage:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 210px;
+    width: 0px;
+    border: 1px solid #fff;
+    animation: 2s ease linesAfter;
+    animation-fill-mode: forwards;
+    
+}
+
+
+@keyframes linesBefore {
+    0% {
+        height: 0px;
+    }
+    
+    10% {
+        height: 0px;
+    }
+    
+    
+    100% {
+        height: 550px;
+
+    }
+    
+    
+}
+
+
+
+@keyframes linesAfter {
+    0% {
+        width: 0px;
+    }
+    
+    10% {
+        width: 0px;
+    }
+    
+    
+    100% {
+        width: 820px;
+
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
