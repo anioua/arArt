@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<link rel="stylesheet" href="bs/css/bootstrap.min.css">
-<link rel="stylesheet" href="css/main.css">
 
 <body>
 
     <nav id="main-nav" class="navbar navbar-expand-lg navbar-light nav-bg-color fixed-top">
         <a class="navbar-brand transition" href="index.html" id="start">AR Site</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler hamburgerIcon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,15 +37,48 @@
     </nav>
 
 
-    <section id="kontaktSection">
-    <div id="container">
-    
-        
-    </div>
+    <section id="contactSection">
+        <div class="container">
+
+
+
+
+            <header>
+                <h1>Send me a message:</h1>
+            </header>
+
+            <form action="#" class="row">
+
+                <div class="col-xl-6 col-md-12 flexy">
+                    <label for="name">Name: </label>
+                    <input class="form-control" type="text" placeholder="Enter your name (required)" name="name" required>
+                    <label for="surname">Surname: </label>
+                    <input class="form-control" type="text" placeholder="Enter your surname " name="surname">
+                    <label for="email">Email: </label>
+                    <input class="form-control" type="text" placeholder="Enter Email (required)" name="email" required>
+                </div>
+
+                <div class="col-xl-6 col-md-12">
+                    <label for="message">Message: </label>
+                    <textarea class="form-control" id="textMessage" type="textarea" placeholder="Enter your message (required)" name="message" required></textarea>
+                </div>
+
+            </form>
+
+
+            <button type="submit" value="Send" id="sendButton">Send</button>  ...or visit me on 
+            <a href="https://www.facebook.com/malarstwo.Aga.rosiek" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+            
+            
+ 
+
+        </div>
+
 
 
     </section>
-<div id="squareAnimation"></div>
+
+    <div id="squareAnimation"></div>
 
 
     <script src="js/jquery-3.3.1.min.js"></script>
