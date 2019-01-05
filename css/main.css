@@ -14,6 +14,69 @@ body {
     background-color: #fff;  
     overflow: hidden;
 }
+
+
+
+.containerOmnie {
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+    position: absolute;
+    margin-top: 25px;
+    transform: translateX(5%);
+}
+
+.column-1-4 {
+	height: 80vh;
+	width: 25%;
+	display: inline-block;
+    float: left;
+	transition: all 0.5s linear;
+	
+}
+
+.background1 {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 200%;
+	background-repeat: no-repeat;
+    border: 1px solid #000;
+	
+}
+
+.column-1-4:hover {
+	width: 40%;
+
+}
+
+.containerOmnie:hover .column-1-4:not(:hover) {
+	width: 20%;
+	
+}
+
+
+
+#background-1 {
+	background-image: url(../img/brushes.jpg);
+}
+
+#background-2 {
+	background-image: url(../img/items.jpg);
+}
+
+#background-3 {
+	background-image: url(../img/paint-face.jpg);
+}
+
+
+#background-4 {
+	background-image: url(../img/planks.jpg);
+}
+
+
+
 .hamburgerIcon {
     background-color: #fff;
     border-radius: 10px;
@@ -115,7 +178,12 @@ footer {
 #omnieSection {
     height: 100vh;
     background-color: #d0d0d0;
-
+    position: relative;
+/*
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+*/
 }
 
 #mojeobrazySection {
